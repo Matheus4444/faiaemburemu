@@ -1,0 +1,116 @@
+body{
+    font-family: 'Trebuchet MS';
+    color: darkred;
+    background-color: rgb(233, 220, 185);
+    text-align: center;
+}
+.main{
+    border: solid 4px darkred;
+}
+.medium{
+    width: 30%;
+    height: 30%;
+}
+.smolPraPorra{
+    width: 7.5%;
+    height: 7.5%;
+}
+.big{
+    width: 60%;
+    height: 60%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+header nav{
+    background-color: black;
+    height: 85px;
+}
+header nav ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    text-align: right;
+    margin-right: 20px;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a {
+    padding: 33px 20px;
+    display: inline-block;
+
+
+    /* visual do link */
+    background-color:rgba(rgb(255, 255, 255), rgb(255, 255, 255), white, 0.1);
+    color: rgb(151, 0, 0);
+    text-decoration: none;
+    border-bottom:0px solid #EDEDED;
+}
+header nav ul li a:hover {
+    background-color:rgb(233, 220, 185);
+}
+#logo{
+    margin: 10px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    clear: left;
+    height:130px; 
+    width:600x;
+}
+.blocoVertical{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px auto;
+}
+.blocoHorizontal{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: right;
+}
+section{
+    background-color: black;
+    border-radius: 4px;
+}
+.textoMassa p{
+    text-align: justify;
+    font-size: 16pt;
+}
+.textoMassa{
+    padding: 4px;
+    margin: 16px;
+    width: 74%;
+}
+h1, h2{
+    font-size: 24pt;
+}
+.textoFinal{
+    text-align: center;
+    font-size: 12px;
+}
+.spoilerButton{
+    background-color: rgb(233, 220, 185);
+    color: darkred;
+    width: 94%;
+}
+.object{
+    width: 100%;
+}
+.flexslider{
+    width: 54%;
+    height: 44%;
+    margin: 10px auto;
+    min-height: 40%;
+    max-height: 100%;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
